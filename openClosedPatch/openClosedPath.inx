@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <name>Open closed Path</name>
+  <id>EllenWasbo.cutlings.OpenClosedPath</id>
+  <dependency type="executable" location="inx">openClosedPath.py</dependency>
+  <param name="help" type="description">Open selected paths by removing z command.</param>
+		
+  <effect>
+    <effects-menu>
+       <submenu name="Cutlings"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command location="inx" interpreter="python">openClosedPath.py</command>
+  </script>
+</inkscape-extension>
